@@ -1,0 +1,44 @@
+.navbarContainer {
+    width: 100vw;
+    background-color:  #1c2329;
+    color: #fff;
+    height: 100px;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+}
+
+li {
+    display: inline;
+}
+
+#algo{
+    width: 100%;
+    display: inline;
+    float: right;
+}
+
+#logo {
+    float: left;
+    font-size: 3.5em;
+}
+
+label{
+    float: right;
+}
+
+#algoChoice {
+    float: right;
+    width: 200px;
+    margin-right: 20px;
+    margin-top: 33px;
+}
+
+@media screen and (max-width: 1040px){
+    #logo {
+        font-size: 1.4em;
+        margin-top: 34px;
+    }
+}

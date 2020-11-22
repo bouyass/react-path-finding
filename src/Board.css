@@ -1,0 +1,14 @@
+.boardContainer {
+    display: grid;
+    grid-template: repeat(26, auto) / repeat(64, auto);
+    height: 87vh;
+}
+
+.cell {
+    border: 1px solid #e2e4e7;
+    
+}
+
+.cell:hover {
+    background-color: #e2e4e7;
+}
